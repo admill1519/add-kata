@@ -7,4 +7,4 @@ def calculator():
     return StringCalculator()
 
 def test_empty_string_returns_zero(calculator):
-    assert calculator.add("") == 0
+    assert calculator.add("  ") == 0
